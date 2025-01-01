@@ -1,9 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './Home'
+import Contact from './Contact'
+import About from './About'
+import Greeting from './Greeting';
+
 
 function App() {
   return (
-   <h1>hello</h1>
+    <div>
+   <h1>hello from ReactJs</h1>
+   <Greeting name = {'Krishna'} />
+   <Greeting name = {'Sri hari'} />
+   { /*<Home name = {'Raj'} age = {23} />
+   <About />
+   <Contact /> */}
+
+   </div>
   );
 }
 
